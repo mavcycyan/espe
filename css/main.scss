@@ -549,11 +549,20 @@ header {
         position: absolute;
         right: 62px;
         display: none;
+        &.right {
+            right: auto;
+            left: -25px;
+        }
+        &.left {
+            left: auto;
+            right: 0;
+        }
     }    
     &-menu {
         display: flex;
         flex-wrap: wrap;
         max-width: 450px;
+        position: relative;
         &-itm {
             width: 50%;
         }
@@ -580,6 +589,16 @@ header {
                         position: absolute;
                         right: 10px;
                         top: 9px;
+                    }
+                }
+                &:nth-child(2n){
+                    padding-left: 25px;
+                    padding-right: 0px;
+                    &:hover, &.hover {
+                        &:before {
+                            transform: rotate(180deg);
+                            left: 10px;
+                        }
                     }
                 }
             }

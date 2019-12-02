@@ -114,12 +114,16 @@ header { background: #414292; padding: 95px 0 10px; background: url("../img/head
 .modal-ttl span { color: #414291; }
 .modal-img { position: relative; display: inline-block; }
 .modal_menu-img { border-radius: 50%; position: absolute; right: 62px; display: none; }
-.modal-menu { display: flex; flex-wrap: wrap; max-width: 450px; }
+.modal_menu-img.right { right: auto; left: -25px; }
+.modal_menu-img.left { left: auto; right: 0; }
+.modal-menu { display: flex; flex-wrap: wrap; max-width: 450px; position: relative; }
 .modal-menu-itm { width: 50%; }
 .modal-menu a { padding-right: 25px; position: relative; min-height: 1px; font-size: 18px; line-height: 30px; display: inline-block; }
 .modal-menu:hover a, .modal-menu.hover a { opacity: 0.3; }
 .modal-menu:hover a:hover, .modal-menu:hover a.hover, .modal-menu.hover a:hover, .modal-menu.hover a.hover { opacity: 1; font-size: 20px; font-weight: 700; line-height: 28px; }
 .modal-menu:hover a:hover:before, .modal-menu:hover a.hover:before, .modal-menu.hover a:hover:before, .modal-menu.hover a.hover:before { content: ''; width: 5px; height: 10px; background: url("../img/modal_menu-arr.svg") no-repeat 0% 0%; position: absolute; right: 10px; top: 9px; }
+.modal-menu:hover a:nth-child(2n), .modal-menu.hover a:nth-child(2n) { padding-left: 25px; padding-right: 0px; }
+.modal-menu:hover a:nth-child(2n):hover:before, .modal-menu:hover a:nth-child(2n).hover:before, .modal-menu.hover a:nth-child(2n):hover:before, .modal-menu.hover a:nth-child(2n).hover:before { transform: rotate(180deg); left: 10px; }
 .modal-menu:hover .modal_menu-img, .modal-menu.hover .modal_menu-img { display: block; }
 .modal-btn { max-width: 450px; display: flex; justify-content: flex-end; }
 .modal-btn a { font-size: 13px; color: #fff; background: #414292; padding: 10px 31px; display: block; margin-top: 50px; border-radius: 4px; align-self: flex-end; margin-right: 65px; }
