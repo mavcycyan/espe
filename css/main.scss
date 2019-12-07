@@ -533,6 +533,7 @@ header {
         position: absolute;
         right: 62px;
         display: none;
+        background: #fff;
         &.right {
             right: auto;
             left: -25px;
@@ -540,6 +541,21 @@ header {
         &.left {
             left: auto;
             right: 0;
+        }
+        &:before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: #fff;
+            z-index: 1;
+        }        
+        img {
+            width: 245px;
+            height: 245px;
+            border-radius: 50%;
+            position: relative;
+            z-index: 2;
         }
     }    
     &-menu {

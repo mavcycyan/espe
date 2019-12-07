@@ -32,7 +32,7 @@ jQuery(document).ready(function($){
         $('.modal-menu').addClass('hover');
         $('[data-for="'+$(this).attr('data-is')+'"]').addClass('hover');
         imgDisplay($('[data-for="'+$(this).attr('data-is')+'"]'));
-        $('.modal_menu-img').attr('src', $('[data-for="'+$(this).attr('data-is')+'"]').attr('data-modl_img'));
+        $('.modal_menu-img img').attr('src', $('[data-for="'+$(this).attr('data-is')+'"]').attr('data-modl_img'));
     });
     $('.modal-img a').mouseleave(function(){
         $('.modal-menu').removeClass('hover');
@@ -41,7 +41,7 @@ jQuery(document).ready(function($){
     $('.modal-menu a').mouseenter(function(){
         $('.modal-img').addClass('hover');
         $('[data-is="'+$(this).attr('data-for')+'"]').addClass('hover');
-        $('.modal_menu-img').attr('src', $(this).attr('data-modl_img'));
+        $('.modal_menu-img img').attr('src', $(this).attr('data-modl_img'));
     });
     $('.modal-menu a').mouseleave(function(){
         $('.modal-img').removeClass('hover');
