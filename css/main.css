@@ -70,14 +70,22 @@ header { background: #414292; padding: 95px 0 10px; background: url("../img/head
 .content-bl-circ.sm12 { top: 8%; left: 36%; }
 .content-bl-circ.sm13 { top: 48%; left: 83%; }
 .content-bl-circ.sm14 { top: 50%; left: 43%; }
-.content-bl-circ.md1 { top: 31%; left: 33%; }
-.content-bl-circ.md2 { top: 44%; left: 3%; }
-.content-bl-circ.md3 { top: 49%; left: auto; right: 17%; }
-.content-bl-circ.md4 { top: 58%; left: 22%; }
-.content-bl-circ.md5 { top: 52%; left: auto; right: 46%; }
-.content-bl-circ.md6 { top: 67%; left: auto; right: 21%; }
-.content-bl-circ.md7 { top: 77%; left: auto; right: 32%; }
-.content-bl-circ.md8 { top: 85%; left: 16%; }
+.content-bl-circ.md1 { top: 42%; left: -1%; }
+.content-bl-circ.md2 { top: 54%; left: 0%; }
+.content-bl-circ.md3 { top: 63%; left: 12%; }
+.content-bl-circ.md4 { top: 12%; left: 33%; }
+.content-bl-circ.md5 { top: 34%; left: 51%; }
+.content-bl-circ.md6 { top: 25%; left: 22%; }
+.content-bl-circ.md7 { top: 29%; left: 41%; }
+.content-bl-circ.md8 { top: 35%; left: 29%; }
+.content-bl-circ.md9 { top: 58%; left: 33%; }
+.content-bl-circ.md10 { top: 43%; left: 45%; }
+.content-bl-circ.md11 { top: 49%; left: 19%; }
+.content-bl-circ.md12 { top: 63%; left: 23%; }
+.content-bl-circ.md13 { top: 70%; left: 52%; }
+.content-bl-circ.md14 { top: 76%; left: 29%; }
+.content-bl-circ.md15 { top: 57%; left: 4%; }
+.content-bl-circ.md16 { top: 18%; left: 14%; }
 .content-bl-circ.lg1 { top: 23%; left: auto; right: 11%; }
 .content-bl-circ.lg2 { top: auto; left: auto; right: 11%; bottom: 15px; }
 .content-bl-circ.lg3 { top: 23%; left: auto; right: 11%; }
