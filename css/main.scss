@@ -246,6 +246,10 @@ header {
         border-radius: 2px;      
         display: block;
     }
+	
+	&-path {
+		display: none;
+	}
     &-circ {
         width: 19px;
         height: 19px;
@@ -483,6 +487,89 @@ header {
     margin-bottom: 35px;
 }
 
+@media(min-width: 1200px){
+	.content-bl {
+		&-circ {
+			&:hover {
+				.content-bl-path {
+					position: absolute;
+					display: block;
+					height: 60px;
+					width: 328px;
+					bottom: 0;
+					left: 100%;
+				    pointer-events: none;
+					&.reverse {
+					    transform: rotate3d(1, 0, 0, 180deg);	
+						bottom: auto;
+						top: 0;
+					}
+					.line1 {
+						height: 1px;
+						width: calc(50% - 8px);
+						background: #000;
+						position: absolute;
+						left: 0;
+						bottom: 8px;
+					}
+
+					.line2 {
+						height: calc(100% - 36px);
+						width: 1px;
+						background: #000;
+						position: absolute;
+						left: 0;
+						right: 0;
+						bottom: 0;
+						top: 0;
+						margin: auto;
+					}
+
+					.line3 {
+						height: 1px;
+						width: calc(50% - 8px);
+						background: #000;
+						position: absolute;
+						right: 0;
+						top: 8px;
+					}
+
+					.corner1 {
+						position: absolute;
+						left: 0;
+						right: 14px;
+						bottom: 8px;
+						width: 14px;
+						height: 14px;
+						margin: 0 auto;
+						border-bottom: 1px solid #000;
+						border-right: 1px solid #000;
+						border-radius: 0px 0px 10px 0px;
+					}
+
+					.corner2 {
+						position: absolute;
+						left: 14px;
+						right: 0;
+						top: 8px;
+						width: 14px;
+						height: 14px;
+						margin: 0 auto;
+						border-top: 1px solid #000;
+						border-left: 1px solid #000;
+						border-radius: 10px 0px 0px 0px;
+					}
+					&.inline {
+						.line1 {width: 99%;}
+						.line2, .line3, .corner1, .corner2 {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}
 @media(max-width: 991px){
     .content {
         &-row {
