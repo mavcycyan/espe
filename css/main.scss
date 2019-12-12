@@ -52,7 +52,7 @@ img { max-width: 100%; height:auto;vertical-align: middle; border-style: none; }
 header {
     background: #414292;
     padding: 95px 0 10px;    
-    background: url('../img/header_back.jpg')no-repeat 0% 0%;
+    background: url('../img/header_back.png')no-repeat 0% 0%;
     background-size: cover;
 }
 .h {
@@ -72,7 +72,8 @@ header {
     &-info {
         color: #fff;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 26px;
+        line-height: 30px;
     }
     &-txt {
         &-cont {
@@ -84,12 +85,13 @@ header {
             color: #fff;
         }
         p {
-            font-size: 14px;
+            font-size: 18px;
             margin: 0 0 15px;
 
         }
         .more {
-            font-size: 14px;
+            font-size: 16px;
+            line-height: 21px;
             text-decoration: underline;
         }
     }
@@ -121,7 +123,8 @@ header {
             justify-content: space-between;
             li {
                 a {
-                    font-size: 13px;
+                    font-size: 15px;
+                    line-height: 30px;
                     color: #fff;
                 }
             }
@@ -130,7 +133,8 @@ header {
     &-btn {
         border: 2px solid #fff;
         color: #fff;
-        font-size: 13px;
+        font-size: 16px;
+        line-height: 21px;
         padding: 9px 36px;
         margin-bottom: 15px;
         &:hover {
@@ -193,11 +197,13 @@ header {
     &-ttl {
         padding: 0 43px;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 26px;
+        line-height: 30px;
     }
     &-txt {
         padding: 0 43px;
-        font-size: 13px;
+        font-size: 16px;
+        line-height: 21px;
         margin-top: 3px;
         margin-bottom: 7px;
     }
@@ -219,6 +225,17 @@ header {
             border-top: 2px solid #000;
             border-right: 2px solid #000;
         }    
+        &:after {
+            content: '';
+            position: absolute;
+            width: 7px;
+            height: 7px;
+            bottom: 0;
+            left: 0;
+            display: block;
+            border-bottom: 2px solid #000;
+            border-left: 2px solid #000;
+        } 
     }
     &-row {
         display: -webkit-flex;
@@ -237,7 +254,8 @@ header {
     }
     &-btn {
         position: absolute;
-        font-size: 13px;
+        font-size: 15px;
+        line-height: 19px;
         color: #fff;
         background: #414292;
         padding: 10px 31px;
@@ -770,7 +788,7 @@ header {
 /*footer*/
 footer {
     margin-top: 30px;
-    background: url('../img/footer_back.jpg')no-repeat 0% 0%;
+    background: url('../img/footer_back.png')no-repeat 0% 0%;
     background-size: cover;
 }
 .f {
@@ -805,7 +823,8 @@ footer {
             justify-content: space-between;
             li {
                 a {
-                    font-size: 13px;
+                    font-size: 15px;
+                    line-height: 30px;
                     color: #414292;
                 }
             }
@@ -817,7 +836,8 @@ footer {
             display: block;
             border: 2px solid #414292;
             color: #414292;
-            font-size: 13px;
+            font-size: 16px;
+            line-height: 21px;
             padding: 9px 36px;
             &:hover {
                 background: #414292;
