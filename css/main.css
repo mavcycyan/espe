@@ -122,10 +122,11 @@ header { background: #414292; padding: 95px 0 10px; background: url("../img/head
 .modal_auth_wp .fancybox-close:before { content: '×'; font-size: 32px; }
 
 .modal_auth { width: 1230px; max-width: 100%; }
-.modal-row { display: flex; flex-wrap: wrap; padding: 40px 0; }
+.modal-row { display: flex; flex-wrap: wrap; margin: 0 -15px; }
 .modal-col { width: 100%; max-width: 50%; }
-.modal-col:last-child { padding-left: 60px; display: flex; flex-wrap: wrap; flex-direction: column; }
-.modal-ttl { font-weight: 700; font-size: 22px; padding-top: 60px; margin-bottom: 20px; }
+.modal-col:first-child { padding-bottom: 40px; border-right: 2px solid #E5E5E5; }
+.modal-col:last-child { padding-left: 100px; display: flex; flex-wrap: wrap; flex-direction: column; }
+.modal-ttl { font-weight: 700; font-size: 22px; padding-top: 118px; margin-bottom: 56px; }
 .modal-ttl span { color: #414291; }
 .modal-img { position: relative; display: inline-block; }
 .modal_menu-img { border-radius: 50%; position: absolute; right: 62px; display: none; background: #fff; }
@@ -143,7 +144,7 @@ header { background: #414292; padding: 95px 0 10px; background: url("../img/head
 .modal-menu:hover a:nth-child(2n):hover:before, .modal-menu:hover a:nth-child(2n).hover:before, .modal-menu.hover a:nth-child(2n):hover:before, .modal-menu.hover a:nth-child(2n).hover:before { transform: rotate(180deg); left: 10px; }
 .modal-menu:hover .modal_menu-img, .modal-menu.hover .modal_menu-img { display: block; }
 .modal-btn { max-width: 450px; display: flex; justify-content: flex-end; }
-.modal-btn a { font-size: 13px; color: #fff; background: #414292; padding: 10px 31px; display: block; margin-top: 50px; border-radius: 4px; align-self: flex-end; margin-right: 65px; }
+.modal-btn a { color: #fff; background: #414292; padding: 10px 39px; display: block; margin-top: 50px; border-radius: 4px; align-self: flex-end; margin-right: 34px; font-size: 15px; line-height: 19px; }
 .modal-use { display: flex; justify-content: center; padding-top: 13px; }
 .modal-use-bl { display: flex; align-items: center; padding-right: 30px; }
 .modal-use-bl img, .modal-use-bl svg { border: 1px solid #2F2F2F; width: 40px; height: 40px; margin-right: 10px; border-radius: 4px; padding: 5px; }
@@ -163,7 +164,7 @@ footer { margin-top: 30px; background: url("../img/footer_back.png") no-repeat 0
 .f-row { display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-wrap: wrap; justify-content: space-between; padding: 46px 0; }
 .f-menu { width: 100%; max-width: 677px; margin-bottom: 15px; }
 .f-menu ul { display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; list-style: none; padding: 0; margin: 0; padding-top: 10px; justify-content: space-between; }
-.f-menu ul li a { font-size: 15px; line-height: 30px; color: #414292; }
+.f-menu ul li a { font-size: 15px; line-height: 30px; color: #2F2F2F; font-weight: 600; }
 .f-btn { margin-bottom: 15px; }
 .f-btn a { display: block; border: 2px solid #414292; color: #414292; font-size: 16px; line-height: 21px; padding: 9px 36px; }
 .f-btn a:hover { background: #414292; color: #fff; }
