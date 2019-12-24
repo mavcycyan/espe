@@ -521,6 +521,32 @@ header {
     margin-bottom: 35px;
 }
 
+.content-bl-img {
+	.content-bl-circ {
+		&.md2 {
+			left: 0%;
+		}
+		&.md3 {
+			left: 13%;
+		}
+		&.md4 {
+			left: 36%;
+		}
+		&.md5 {
+			left: 66%;
+		}
+		&.md6 {
+			left: 22%;
+		}
+		&.md7 {
+			left: 49%;
+		}
+		&.md8 {
+			left: 31%;
+		}
+	}
+}
+
 @media(min-width: 1200px){
 	.content-bl {
 		&-circ {
